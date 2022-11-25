@@ -1,0 +1,194 @@
+body{
+    margin:0;
+    padding:0;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar.nav{
+    display: flex;
+    align-items: center;
+}
+.navbar li{
+    margin:0px 20px;
+    font-weight:bolder;
+}
+.div1{
+    display: flex;
+}
+.img{
+    padding-top: 10px;
+    display: flex;
+    height:50px;width:50px;
+    margin-right:10px;
+
+}
+.navbar.nav h2{
+    font-size:1.9rem;
+    font-weight: lighter;
+}
+.navbar li:hover{
+    color:green;
+}
+
+article{
+    height:93vh;
+    background-image:url(https://static.vecteezy.com/system/resources/previews/004/236/399/original/pink-golden-ratio-bubble-background-free-vector.jpg);
+    opacity:1;
+}
+article img{
+    height:70vh;
+    z-index: 3;
+    border-top:50px solid white;
+    border-bottom:3px solid white;
+    
+    border-left:10px solid white;
+    border-right:10px solid white;
+    border-radius: 20px;
+}
+article>div{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 2rem;
+    margin-left:20%;
+    padding-top:90px;
+}
+article a{
+    padding:15px 40px;
+    color:black;
+    background-color: white;
+    border-radius: 30px;
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+article div div{
+    padding-top:10%;
+    margin-left:90px;
+}
+.page2{
+    height: 270px;
+    background-color: rgb(222, 24, 192); 
+    background-image: linear-gradient(rgb(222, 24, 192), rgb(39, 76, 225));
+}
+.p2{
+    color:white;
+    font-size: 4rem;
+    padding-top:5rem;
+}
+.div2{
+    padding-top: 100px;
+}
+.page4{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/236/399/original/pink-golden-ratio-bubble-background-free-vector.jpg);
+    height: 250px;
+}
+.p4{
+    color:white;
+    font-size: 6rem;
+    padding-top:5rem;
+}
+
+
+
+
+
+
+
+.container{
+
+    justify-content:center;
+    width:auto;
+    height: 200px;
+
+}
+.h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.box{
+    display: flex;
+    padding-left: 50px ;
+    
+
+}
+.boxes{
+    margin:10px;
+    padding-left: 10px ;
+    
+}
+.heading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.headingss{
+    padding-left: 28px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.headingsss{
+    padding-left: 19px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+footer{
+    color:white;
+    background-color: black;
+
+}
+footer h2,h3{
+    margin:10px;
+}
+footer div{
+    display: flex;
+    
+}
+footer img{
+    height:50px;width:50px;
+    margin-right:10px;
+}
+footer div{
+    margin:100px 60px;
+}
+footer section{
+    display: flex;
+    justify-content: space-between;
+}
+footer section div{
+    display: flex;
+    flex-direction: column;
+}
+footer section div:nth-last-of-type(1){
+    display: inline-block;
+
+}
+footer section div:nth-last-of-type(1) img{
+    height:30px;width:50px;
+    margin-right:0px;
+    filter:invert(1);
+    
+}
+footer section h3{
+    color:grey;
+}
+
+
+article+section{
+    background-color: white;
+    padding:20px 0px 40px 0px;
+}
+
+
+
+    
+    
